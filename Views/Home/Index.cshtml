@@ -2,4 +2,21 @@
     ViewData["Title"] = "MoodTracker";
 }
 
-драсти индекс
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать в Трекер Настроения</h1>
+</div>
+
+<div class="text-center">
+    <h2>Что вы хотите сделать?</h2>
+    <p>
+        <a asp-controller="DailyMood" asp-action="LogMoodForToday">Добавить сегодняшнее настроение</a>
+    </p>
+    <p>
+        <a asp-controller="YearInMoods" asp-action="Index">Посмотреть календарь</a>
+    </p>
+    <p>
+        <a asp-controller="Moods" asp-action="Create">Создать новое настроение</a>
+    </p>
+</div>
+
+
